@@ -42,13 +42,14 @@ $(document).ready(function() {
 	if (e.which == 88 && ryuHadouken == false){
 		$('.ryu-still').hide();
 		$('.looking-cool').show();
-    $('.ryu-ready').hide();
+		$('.ryu-ready').hide();
 	}
 	});
 $(document).keyup(function(e) {
 	if (e.which == 88){
 		$('.looking-cool').hide();
-		$('.ryu-still').show();
+		$('.ryu-still').hide();
+		$('.ryu-ready').show();
 	} 
 	});
 });

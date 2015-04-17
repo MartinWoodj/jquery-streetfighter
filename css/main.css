@@ -15,6 +15,7 @@ body {
 .ryu {
 	width: 659px;
 	height: 494px;
+	position: relative;
 }
 
 .ryu-still, .ryu-ready, .ryu-throwing, .looking-cool {
@@ -57,3 +58,33 @@ body {
 	top: 170px;
 	left: 620px;
 }
+
+.high-text {
+	font-family: 'Press Start 2P', cursive;
+	display: inline-block;
+	position: relative;
+	line-height: 1.25em;
+	top: -450px;
+	right: -500px;
+}
+
+
+.low-text {
+	font-family: 'Press Start 2P', cursive;
+	display: inline-block;
+	position: relative;
+	line-height: 1.25em;
+	top: -200px;
+	right: -250px;
+}
+
+
+
+
+
+
+
+
+
+
+
