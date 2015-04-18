@@ -61,6 +61,8 @@ body {
 
 .high-text {
 	font-family: 'Press Start 2P', cursive;
+	text-align: justify;
+	width: 25em;
 	display: inline-block;
 	position: relative;
 	line-height: 1.25em;
@@ -71,20 +73,11 @@ body {
 
 .low-text {
 	font-family: 'Press Start 2P', cursive;
+	text-align: justify;
+	width: 25em;
 	display: inline-block;
 	position: relative;
 	line-height: 1.25em;
 	top: -200px;
 	right: -250px;
 }
-
-
-
-
-
-
-
-
-
-
-

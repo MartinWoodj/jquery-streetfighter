@@ -48,8 +48,7 @@ $(document).ready(function() {
 $(document).keyup(function(e) {
 	if (e.which == 88){
 		$('.looking-cool').hide();
-		$('.ryu-still').hide();
-		$('.ryu-ready').show();
+		$('.ryu-still').show();
 	} 
 	});
 });
